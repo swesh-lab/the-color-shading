@@ -1,0 +1,83 @@
+/* Project Name: WHAT'S THE CORRECT SHADING? 
+   @author sweta sharma
+*/
+
+body{
+    color: white;
+    background: black;
+    font-family: "Shadows Into Light";
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#taskDesc{
+    color: gold;
+}
+
+.contentPosition{
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 14%;
+    position: absolute;
+}
+
+.shade{
+    width: 55px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px black;
+    cursor: pointer;
+}
+
+.shade:hover{
+    border: 2px dashed black;
+    border-radius: 50%;
+    border-style: inset;
+    box-shadow: 0 0 0 2px white;
+}
+
+#shadeValue{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#shadeButton{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#output{
+    margin: 0 auto;
+    text-align: center;
+    color: gold;
+}
+
+#guessAgain{
+    margin: 10px auto;
+    text-align: center;
+}
+
+#guessAgainButton{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: "Shadows Into Light";
+    font-size:  20px;
+    background: black;
+    padding: 10px;
+}
+
+#guessAgainButton:hover{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
